@@ -1,6 +1,22 @@
 # YT-filter
 A uBlock Origin filter to revert some of the changes YouTube made to the subscription page.
 
+## How to Use
+
+1. Install the uBlock Origin extension.
+
+* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+* [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+* [Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+* [Opera](https://addons.opera.com/en/extensions/details/ublock/)
+* [Manual install](https://github.com/gorhill/uBlock/releases)
+
+2. Click on the extension, then the gears icon.
+3. Navigate to "My filters".
+4. Click on "Import and append", then select the `YT_subscriptions_filter.txt` file.
+5. Click "Apply changes".
+6. Refresh the Youtube subscription page.
+
 ## Original Script
 [Click here](https://www.reddit.com/r/uBlockOrigin/comments/11nrqy3/youtube_homepage_3_videos_per_row_issue/) for the original filter by u/archangelique.
 
